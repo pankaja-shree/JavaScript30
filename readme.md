@@ -6,4 +6,4 @@ Join the challenge at [https://JavaScript30.com](https://JavaScript30.com)
 
 ## Day 1 
 
-[Javascript Drum Kit](day1/index.html)
+[Javascript Drum Kit](day1/index.html){:target="_blank"}
