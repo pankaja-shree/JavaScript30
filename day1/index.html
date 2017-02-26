@@ -59,33 +59,28 @@
 
 <script>
 
- window.addEventListener('keydown',play); //listen to keydown event , when key is pressed, callback function play
+
  
- function play(e){ //pass the event e as parameter
-  
-  const audio_ele = document.querySelector('audio[data-key='+e.keyCode+']');  //reference the audio corresponding to key to play 
-  //using template literals - `audio[data-key="${e.keycode}"]`
-  
-  const div_ele = document.querySelector('.key[data-key='+e.keyCode+']'); //reference the div corresponding to key, to add playing class
-    //using template literals - `.key[data-key="${e.keycode}"]`
+ function playAudio(e){
+	const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+	const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
 	
-  if(!audio_ele) return; //if the key doesn't match any of our keys, dont do anything
-  
-  div_ele.classList.add("playing"); //add playing class 
-  
-  audio_ele.currentTime = 0; //start playing from 0s everytime
-  audio_ele.play(); //play the audio 
-  
+	audio.currentTime = 0;
+	audio.play();
+	key.classList.add('playing');
  }
- 
- const key_class = document.getElementsByClassName("key");
- key.forEach(key => key.addEventListener('transitionend',removeClass);
  
  function removeClass(ev){
-  if(ev.propertyName !== 'transform') return; //check if the event has transform propertyName
-  this.classList.remove('playing');
-  
+	if(ev.propertyName !== 'transform') return;
+	this.classList.remove('playing');
  }
+ 
+  window.addEventListener('keydown',playAudio);
+ const keys = document.querySelectorAll('.key');
+ keys.forEach(k => k.addEventListener('transitionend',removeClass));
+ 
+ 
+  
 </script>
 
 
