@@ -1,6 +1,9 @@
 html {
   font-size: 10px;
   background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+   background-image: url('img/DrumSetFull.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 body,html {
@@ -26,9 +29,9 @@ body,html {
   transition: all .07s ease;
   width: 10rem;
   text-align: center;
-  color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  color: #eeff00;
+  background: rgba(0,0,0,0.5);
+  text-shadow: 0 0 .5rem red;
 }
 
 .playing {
@@ -48,3 +51,78 @@ kbd {
   letter-spacing: .1rem;
   color: #ffc600;
 }
+
+h1,h2{
+	text-align: center;
+    font-family: 'Abril Fatface', cursive;
+	font-size: 3em;
+  text-shadow: 0 0 1rem orange;
+  width: 100%;color:#570E06;
+}
+
+p.key{
+	position:absolute;
+	top:5%;
+	left: 10%;
+	color:#ffe100;
+}
+
+.k-a{
+	position:absolute;
+	top:23%;
+	left: 18%;	
+}
+
+.k-s{
+	position:absolute;
+	top:41%;
+	left: 10%;}
+
+.k-d{
+	position:absolute;
+	top:59%;
+	left: 18%;
+}
+
+
+.k-f{
+	position:absolute;
+	bottom:5%;
+	left: 10%;
+}	
+
+.k-g{
+	position:absolute;
+	top:5%;
+	right: 10%;
+	
+}
+
+
+.k-h{
+	position:absolute;
+	top:23%;
+	right: 18%;
+	
+}
+
+
+.k-j{
+	position:absolute;
+	top:41%;
+	right: 10%;
+}
+
+
+.k-k{
+	position:absolute;
+	top:59%;
+	right: 18%;
+	
+}
+
+.k-l{
+	position:absolute;
+	bottom:5%;
+	right: 10%;
+}	
