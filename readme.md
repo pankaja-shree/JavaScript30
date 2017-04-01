@@ -11,3 +11,7 @@ Join the challenge at [https://JavaScript30.com](https://JavaScript30.com)
 ## Day 2
 
 [CSS Clock](day2/index.html)
+
+## Day 2
+
+[Play with CSS Variables and JS](day3/index.html)
