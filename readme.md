@@ -14,8 +14,12 @@ Join the challenge at [https://JavaScript30.com](https://javaScript30.com)
 
 ## Day 3
 
-[Play with CSS Variables and JS](day3/index-START.html)
+[Online Image Editor](day3/index-START.html)
 
 ## Day 4
 
 [Image Gallery using CSS Flexbox](day4/index.html)
+
+## Day 5
+
+[Predict City/State name ](day5/index.html)
