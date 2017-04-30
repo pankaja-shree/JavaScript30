@@ -1,8 +1,10 @@
 # JavaScript30
 
-My Completed solutions for the JavaScript 30 Day Challenge.
+* My Completed solutions for the JavaScript 30 Day Challenge.
 
-Join the challenge at [https://JavaScript30.com](https://javaScript30.com)
+* Join the challenge at [https://JavaScript30.com](https://javaScript30.com)
+
+* [Medium Blog Posts about this challenge](https://medium.com/@pankajashree/lessons-learnt-from-javascript30-part-1-70c27809c7bb)
 
 ## Day 1 
 
